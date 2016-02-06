@@ -1,0 +1,47 @@
+#wrapper {
+	height: 80%;
+	background-color: skyblue;
+	margin-top: 50px;
+}
+
+#header {
+	height: 40px; width:100%;
+	background-color: #3377A4;
+	position: relative;
+	top: 0;
+
+	opacity: 0.75;
+}
+
+#meat {
+	height: 80%;
+	background-color: #59D1D5;
+	margin-top: 50px;
+}
+
+#meat #meatcenter {
+	height: 80%; width: 50%;
+	background-color: steelblue;
+	margin: auto;
+}
+
+#boxes {
+	height: 20px; width: 20px;
+	background-color: tomato;
+	position: relative;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 1px;
+
+	font-size: 10px;
+}
+
+#footer {
+	height: 40px; width: 100%;
+	background-color: #3377A4;
+
+	position: absolute;
+	bottom: 0;
+
+	opacity: 0.75;
+}
