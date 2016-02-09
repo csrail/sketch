@@ -20,20 +20,25 @@
 }
 
 #meat #meatcenter {
-	height: 80%; width: 50%;
+	height: 700px; width: 700px;
 	background-color: steelblue;
 	margin: auto;
 }
 
 #boxes {
-	height: 20px; width: 20px;
+	height: 5.68%; width: 5.68%;
 	background-color: tomato;
 	position: relative;
 	display: inline-block;
 	border: 1px solid black;
 	margin: 1px;
+	float: left;
 
 	font-size: 10px;
+}
+
+.wakka {
+	clear: left;
 }
 
 #footer {
