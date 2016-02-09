@@ -26,8 +26,7 @@
 }
 
 #boxes {
-	height: 5.68%; width: 5.68%;
-	background-color: tomato;
+	height: 5%; width: 5%;
 	position: relative;
 	display: inline-block;
 	border: 1px solid black;
@@ -45,8 +44,16 @@
 	height: 40px; width: 100%;
 	background-color: #3377A4;
 
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 
 	opacity: 0.75;
+}
+
+.ignite {
+	background-color: red;
+}
+
+.dream {
+	background-color: tomato;
 }
