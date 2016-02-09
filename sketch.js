@@ -14,7 +14,5 @@ $(document).ready(function(){
 			$(this).removeClass('dream');
 			$(this).addClass('ignite');
 		});
-	});
-
-	
+	});	
 });
