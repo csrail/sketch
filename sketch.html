@@ -3,7 +3,7 @@
 <head>
 	<link type="text/css" rel="stylesheet" href="reset.css">
 	<link type="text/css" rel="stylesheet" href="sketchstyle.css">
-	<script src="jQuery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 	<script src="sketch.js"></script>
 	<title>Sketch!</title>
 	<link rel="shortcut icon" href="bloodeye.jpg">
@@ -24,11 +24,26 @@
 </div>
 
 <div id="wrapper">
-<div id="meat"> 
-	<div id="meatcenter">
+	<div id="menu">
+			<button id="restart" type="button">Restart</button>
+			<button type="button">1</button>
+			<button type="button">2</button>
+			<button type="button">3</button>
 	</div>
+	<div id="prologue">
+		<p id="intro">Sketch Box</p>
+		<p id="blurb" class="info">Sketch Box is a program based on jQuery. </p>
+		<p class="info">Following the curriculum of <a href="http://www.theodinproject.com/web-development-101/javascript-and-jquery">The Odin Project</a>, this exercise demonstrates how javascript can be used to improve the interactive experience of a webpage.</p>
+		<p class="play">To play, simply move your cursor over the squares onto the grid to the right.</p>
+		<p class="play2"> Once you have finished fooling around, find the buttons on the right and discover what they can do.</p>
+	<div id="author"><p id="sign">Created by CSRaiL</p></div>
 
-</div>
+	</div>
+	<div id="meat"> 
+		<div id="meatcenter"></div>
+
+
+	</div>
 </div>
 
 <div id="footer">

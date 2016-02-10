@@ -15,4 +15,8 @@ $(document).ready(function(){
 			$(this).addClass('ignite');
 		});
 	});	
+
+	$('#restart').on('click', function(){
+		var reset = prompt ("Resetting the game? How many columns did you want?")
+	})
 });
