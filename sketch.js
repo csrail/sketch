@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$jQuery(document).ready(function(){
 
 	for (var i = 1; i <=(16*16); i++ ) {
 		$('#meatcenter').append('<div id="boxes" class="'+i+' dream"></div>')
@@ -18,5 +18,8 @@ $(document).ready(function(){
 
 	$('#restart').on('click', function(){
 		var reset = prompt ("Resetting the game? How many columns did you want?")
+		// need to clear previous grid
+		// need to make new loop to make new grid
+		// need to take input value from prompt and trasnfer it to the equation
 	})
 });
