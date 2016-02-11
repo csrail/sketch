@@ -23,6 +23,4 @@ $(document).ready(function(){
 		// need to take input value from prompt and trasnfer it to the equation
 	})
 
-event.stopProagation()
-event.preventDefault()
 });
